@@ -1,5 +1,6 @@
 from model.User import User
 
+
 class Admin(User):
 
     def __init__(self,UserObject):
@@ -13,3 +14,4 @@ class Admin(User):
 
     def getUsage():
         return -1
+
